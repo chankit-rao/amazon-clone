@@ -1,0 +1,85 @@
+/* css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/*naviagtion bar*/
+#amazon-logo img {
+    height: 40px;
+    width: 70px;
+}
+
+#nav-add-logo img {
+    height: .8rem;
+    width: .9rem;
+}
+
+#to {
+    color: #ccc;
+    height: 12px;
+    margin-left: 1.4rem;
+    margin-bottom: 5px;
+}
+
+#India {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+/*Search-Bar*/
+
+#all select {
+    height:30px;
+    border-color: white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 5px;
+}
+
+#all {
+    /**/
+    font-size:10px;
+}
+
+#search-bar input {
+    height: 30px;
+    padding: 3px;
+    border: 0px;
+    width: 100px;
+    font-size:10px;
+}
+
+#search-bar input:focus {
+    border: 3px solid orange;
+    outline-width: 0px;
+}
+
+#search-icon img {
+    padding: 5px;
+    color: white;
+    height:10px;
+    width:15px;
+}
+
+/*sign-in*/
+#sign-in {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-p {
+    font-size: 0.45rem;
+    color: white;
+    font-weight:400;
+}
+
+.second-p {
+    font-size: 0.65rem;
+    color: white;
+    font-weight:400;
+}
